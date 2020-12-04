@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Dog</title>
+        <link rel="stylesheet" href="HTML5_Styling/style.css">
+        <link rel="stylesheet" href="HTML5_Styling/print.css" media="print">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../StarQQQ.github.io/home.html">Home</a></li>
+                <li><a href="../StarQQQ.github.io/about.html">About</a></li>
+                <li><a href="../StarQQQ.github.io/cook.html">Cook</a></li>
+                <li><a href="../StarQQQ.github.io/bakery.html">Bakery</a></li>
+                <li><a href="../StarQQQ.github.io/house.html">House</a></li>
+                <li><a href="../StarQQQ.github.io/youtuber.html">Youtuber</a></li>
+                <li><a href="../StarQQQ.github.io/hometown.html">Hometown</a></li>
+                <li><a href="../StarQQQ.github.io/movie.html">Movie</a></li>
+                <li><a href="../StarQQQ.github.io/mydog.html">MyPet</a></li>
+                <li><a href="../StarQQQ.github.io/trip.html">Trip</a></li>
+                <li><a href="../StarQQQ.github.io/resume.html">MyResume</a></li>
+            </ul>
+    
+        </nav>
+
+
+
+        <script>
+            export default {
+                props: {
+                    thumbnail: {
+                        type: String,
+                        required: true,
+                    },
+                    images: {
+                        type: Array,
+                        default: () => [],
+                    },
+                },
+                data() {
+                    return {
+                        visible: false,
+                        index: 0,
+                    };
+                },
+                methods: {
+                    show() {
+                        this.visible = true;
+                    },
+                    hide() {
+                        this.visible = false;
+                        this.index = 0;
+                    },
+                    hasNext() {
+                        return this.index + 1 < this.images.length;
+                    },
+                    hasPrev() {
+                        return this.index - 1 >= 0;
+                    },
+                    prev() {
+                        if (this.hasPrev()) {
+                            this.index -= 1;
+                        }
+                    },
+                    next() {
+                        if (this.hasNext()) {
+                            this.index += 1;
+                        }
+                    },
+                    onKeydown(e) {
+                        if (this.visible) {
+                            switch (e.key) {
+                                case 'ArrowRight':
+                                    this.next();
+                                    break;
+                                case 'ArrowLeft':
+                                    this.prev();
+                                    break;
+                                case 'ArrowDown':
+                                case 'ArrowUp':
+                                case ' ':
+                                    e.preventDefault();
+                                    break;
+                                case 'Escape':
+                                    this.hide();
+                                    break;
+                            }
+                        }
+                    },
+                },
+                mounted() {
+                    window.addEventListener('keydown', this.onKeydown)
+                },
+                destroyed() {
+                    window.removeEventListener('keydown', this.onKeydown)
+                },
+            };
+        </script>
+
+
+
+        <footer id="printnotice">
+            <p>Author: Vera D 2020<br>
+                <a href="mailto:qding17@bu.edu">qding17@bu.edu</a></p>
+        </footer>
+    </body>
+    </html>
