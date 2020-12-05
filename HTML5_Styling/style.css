@@ -2,6 +2,7 @@
 nav {
     font-size: large;
     background-color: black;
+    /* #3C403D; */
     width: 100%;
     text-align: center;
     padding: 0;
@@ -18,13 +19,88 @@ li a:hover {
     background-color: #111;
 }
 
+/* css grid layout for home page */
+body {
+    margin: 40px;
+  }
+  
+  .sidebar {
+    grid-area: sidebar;
+  }
+  
+  .content {
+    grid-area: content;
+    position: relative;
+  }
+  
+  .header {
+    grid-area: header;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  .wrapper {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 200px 200px 200px;
+      grid-template-areas:
+      "header  header  header"
+      "sidebar content content"
+      "footer  footer  footer";
+      background-color: #fff;
+      color: #444;
+    }
+  
+  
+  .box {
+    background-color: #FFFFFF;
+    color: #fff;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 100%;
+  }
+  
+  .header,
+  .footer {
+    background-color: #999;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .topright {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+
+
 body {
     /*display: grid;
     grid-template-columns: 75% 25%;
     grid-template-rows:  10vw 30vm;
     grid-gap: 1em;*/
-    font-family: Calibri;
-    background-color: antiquewhite;
+    font-family: Helvetica, sans-serif;
+    /* background-color:#E8CEBF; */
+    background-color:#DADED4;
     margin: 0 auto;
     max-width: 100em;
     padding: 1em 0;
@@ -37,29 +113,39 @@ body {
     font-size: 16pt;
 }
 h1 {
-    color: green;
+    color: #3C403D;
     font-weight: bold;
     text-align: center;
     font-size: 25px;
+    padding: 10px;
     margin:0;
 }
 h2, h3 {
+    font-family: 'Trebuchet MS', sans-serif;
     margin:0;
-    padding:0;
-    color: black;
-    background: #FFFFFF;
+    padding:5 px;
+    border: 1px solid #ddd;
+    color:  #8076a3;
+    background: #e5eaf5; 
     font-size: 18px;
 }
+
+h2:hover {
+    background: #a0d2eb;
+    /* #e5eaf5; */
+    color: #a28089;
+}
+
 h4 {
-    color: gray;
+    /* color: gray; */
     font-weight: bold;
     text-align: left;
     font-size: 16px;
     padding:0;
 }
 h1:hover {
-    background: lightpink;
-    color: yellowgreen;
+    background:#fbe3e8;
+    color:  #5cbdb9;
 }
 
 
@@ -83,29 +169,27 @@ h1:hover {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #39603D;
     color: white;
 }
 
-div {
+/* div {
     width: 80%;
-    background-color: lightblue;
+     background-color: lightblue; 
     border: 1px solid black;
     text-align: left;
     padding: 10px 50px 75px 100px;
-}
+} 
+*/
 
-p {
-    background: darkgray;
-    color: black;
-    width: 60%;
-    padding: 10px 15px 30px 30px;
+ p {
+    /* background: #A3BCB6; */
+    color:#494D5F;
+
+    /* padding: 10px 15px 30px 30px; */
     text-align: left;
-}
-p:hover {
-    background: palegreen;
-    color: sandybrown;
-}
+} 
+
 ul {
     display: inline-flex;
 }
@@ -141,3 +225,53 @@ td {
     max-width: 100%;
     max-height: calc(100vh - 90px);
 }
+
+.output {
+    font-weight:bold;
+  }
+  #payment {
+    text-decoration:underline;
+  }
+  #graph {
+    border:solid black 1px;
+  }
+  th, td {
+    vertical-align: top;
+  }
+
+  /* animate button */
+  .button {
+    position: relative;
+    background-color: #555555;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  

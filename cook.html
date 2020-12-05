@@ -8,28 +8,78 @@
         <link rel="stylesheet" href="HTML5_Styling/print.css" media="print">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="../StarQQQ.github.io/home.html">Home</a></li>
-                <li><a href="../StarQQQ.github.io/about.html">About</a></li>
-                <li><a href="../StarQQQ.github.io/cook.html">Cook</a></li>
-                <li><a href="../StarQQQ.github.io/bakery.html">Bakery</a></li>
-                <li><a href="../StarQQQ.github.io/house.html">House</a></li>
-                <li><a href="../StarQQQ.github.io/youtuber.html">Youtuber</a></li>
-                <li><a href="../StarQQQ.github.io/hometown.html">Hometown</a></li>
-                <li><a href="../StarQQQ.github.io/movie.html">Movie</a></li>
-                <li><a href="../StarQQQ.github.io/mydog.html">MyPet</a></li>
-                <li><a href="../StarQQQ.github.io/trip.html">Trip</a></li>
-                <li><a href="../StarQQQ.github.io/resume.html">MyResume</a></li>
-            </ul>
-    
-        </nav>
-        <section>
-            <h1 class="customers">Cooking</h1>
-                <h3>Japanese Ramen</h3>
+      <nav>
+        <ul>
+            <li><a href="../StarQQQ.github.io/home.html">HOME</a></li>
+            <li><a href="../StarQQQ.github.io/about.html">ABOUT</a></li>
+            <li><a href="../StarQQQ.github.io/cook.html">COOK</a></li>
+            <li><a href="../StarQQQ.github.io/bakery.html">BAKERY</a></li>
+            <li><a href="../StarQQQ.github.io/house.html">HOUSE</a></li>
+            <li><a href="../StarQQQ.github.io/youtuber.html">YOUTUBER</a></li>
+            <!-- <li><a href="../StarQQQ.github.io/hometown.html">Hometown</a></li> -->
+            <li><a href="../StarQQQ.github.io/movie.html">MOVIE</a></li>
+            <li><a href="../StarQQQ.github.io/mydog.html">PET</a></li>
+            <li><a href="../StarQQQ.github.io/trip.html">TRIP</a></li>
+            <li><a href="../StarQQQ.github.io/resume.html">PROFESSIONAL</a></li>
+        </ul>
+
+    </nav>
+        <h1 class="box header">Cooking 👩‍🍳</h1>
+        <section class="box content">
+            
+                <h2 >Japanese Ramen</h2>
+                <br>
                 <img src="https://images.unsplash.com/photo-1555232967-d2c10a468149?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="JapaneseRamen" width="700" height="500">
-                <h3>Four ways to cook snow crab </h3>
+                <button class = "highlight" onclick="myFunction()">Show/hide Ramen Recipence </button>  
+                <p id="demo">
+                        1. Broth: Ramen broth can be made up to a week in advance, and can also be made and frozen in single-serve portions for thawing and eating anytime. The broth should be brought back to a full boil before serving with the ramen.
+                    <br>
+                        2. Noodles: The ramen noodles should be cooked in boiling water just before serving. Boiling the noodles in the broth can result in gummy noodles. Instead, cook the noodles separately in just water and drain before adding to the individual bowls of broth.
+                    <br>
+                        3. Toppings: This style of ramen is often served with cooked pork on top, sometimes ground pork, roasted pork loin, or pork belly. Since we focused our efforts on making the best ramen broth possible, we chose to keep the toppings simple. A silky-soft boiled egg, some pickled bamboo, dried nori, and a drizzle of sesame oil is all that a bowl of this ramen needs to turn it into a meal.
+                </p>
+                
+                <h2>Snow crab </h2>
                 <img src="../StarQQQ.github.io/img/SnowCrab.jpg" alt="SnowCrab" width="700" height="500">
+                <button class = "highlight" onclick="myFunction2()">Show/hide Snow crab Recipence</button>
+                <p id="snow">
+                    1. Boiling 
+                    <br>
+                    Boil the Water Once the water is boiling, slowly lower the crab legs in using long-handled tongs. Bend the crabs at the joints and tuck them in so that the hot water fully covers them. Return the water to a boil before reducing the heat to a simmer.
+                    <br>
+                    2. Steaming Crab Legs  
+                    <br>
+                    Prepare the Water and Steam for 5-7 Minutes When the crab is heated, remove the legs with long-handled tongs and set them aside to cool slightly.
+                    <br>
+                    3. Broiling Crab Legs
+                    <br>
+                    Preheat the Oven and Broil the Crab Legs  Place the sheet pan 5 to 6 inches from the broiler and bake until the crab legs are heated through, about 3-4 minutes a side.
+                </p>
+
+                
+                    //click for cook
+                    <script>
+                        function myFunction() {
+                          var x = document.getElementById("demo");
+                          if (x.style.display === "none") {
+                            x.style.display = "block";
+                          } else {
+                            x.style.display = "none";
+                          }
+                        }
+                        </script>
+
+                    //click for snow
+                    <script>
+                        function myFunction2() {
+                          var x = document.getElementById("snow");
+                          if (x.style.display === "none") {
+                            x.style.display = "block";
+                          } else {
+                            x.style.display = "none";
+                          }
+                        }
+                        </script>
                
           </section>
           
