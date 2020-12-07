@@ -333,3 +333,21 @@ table, th, td
     background-size: cover;
     position: relative;
   }
+
+  /* float image &text */
+
+  .TextWrap {
+    height:200px;
+     width:200px;
+    float: left; 
+    margin: 3px 12px 3px 0px; border: 1px solid #000000;
+  }
+  .TextWrapL {
+    float: left;
+    margin: 10px;
+  }
+  .TextWrapR {
+    float: center;
+    margin: 10px;
+    width: 40%;
+  }
