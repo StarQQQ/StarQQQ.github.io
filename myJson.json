@@ -1,0 +1,19 @@
+{
+	"VeraEducation": [{
+			"degree": {
+				"school": "Bentley University",
+        "major": "Accounting",
+        "type": "BS",
+        "graduation": "2014"
+			}
+		},
+		{
+			"degree": {
+				"school": "Boston University",
+        "major": "Computer Science",
+        "type": "MS",
+        "graduation": "2020"
+			}
+		}
+	]
+}

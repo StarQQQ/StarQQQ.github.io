@@ -1,5 +1,5 @@
 function validateForm() {
-    if(isFirstName() && isLastName() && isFacilitator())
+    if(isFirstName() && isLastName())
     return true;
     else return false;
 }
@@ -42,18 +42,6 @@ function isLetter(input) {
         return true;
     }
     return false;
-}
-
-function isFacilitator() {
-    var facilitatorName = document.getElementById("facilitator");
-    var name = facilitatorName.value.toLowerCase();
-    if (name === "laura" || name === "fazil" || name === "josh" || name === "harsh") {
-        return true;
-    } else {
-        alert("Warning: Not a validate facilitator name.");
-        facilitatorName.focus();
-        return false;
-    }
 }
 
 
