@@ -304,8 +304,8 @@ table, th, td
     position: relative;
     background-color:  #E8CEBF;
     color: black;
-    height: 500px;
-    width: 550px;
+    height: 300px;
+    width: 350px;
     margin: 4px;
     font-size: 3.2rem;
     text-align: center;
@@ -322,18 +322,11 @@ table, th, td
     text-align: center;
     padding: 6px 0; 
 
-  }
+  } 
 
-  .hero-image {
-    background-image:('https://images.unsplash.com/photo-1467810563316-b5476525c0f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80');
-    /* background-color: #cccccc; */
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
+  
+  
+  
   /* float image &text */
 
   .TextWrap {
