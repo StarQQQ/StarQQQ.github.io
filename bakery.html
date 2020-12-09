@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="HTML5_Styling/style.css">
         <link rel="stylesheet" href="HTML5_Styling/print.css" media="print">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
         <script src="script.js"></script>
     </head>
     <body>
@@ -29,6 +30,50 @@
         <h1 class="box header">Bakery 🧁🍰 </h1>
         <!-- create in checkbox like todo list of receipnce -->
         <section class="content">
+            <div class="heading">
+                <h2>Weekly Recipes</h2>
+              </div>
+              <script src="recipe.js"></script>
+              <form id="recipe-form">
+                <input type="text" name="task" id="task" class="task_input">
+                
+                <select id="day">
+                  <option value="0">Sunday</option>
+                  <option value="1">Monday</option>
+                  <option value="2">Tuesday</option>
+                  <option value="3">Wednesday</option>
+                  <option value="4">Thursday</option>
+                  <option value="5">Friday</option>
+                  <option value="6">Saturday</option>
+                </select>
+                <button type="submit" class="task_btn" name="submit">Add Recipe</button>
+              
+              </form>
+              
+              <div>
+                <table id="t01">
+                  <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </table>
+              </div>
+              
+
      
                 <h3>Cute Cupcake</h3>
                 <img src="https://images.unsplash.com/photo-1587536849024-daaa4a417b16?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGRlc3NlcnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="MilkCrep" width="400" height="550">

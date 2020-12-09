@@ -6,6 +6,7 @@
     <title>MyResume</title>
     <link rel="stylesheet" href="HTML5_Styling/style.css">
     <link rel="stylesheet" href="HTML5_Styling/print.css" media="print">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
 </head>
 <body>
     <nav>
@@ -29,7 +30,8 @@
         <header>
           <h1 class="box header"> Vera Ding Resume 👩🏻‍💼</h1>
         </header>
-        <section class="box content">
+        <input type="text" value="CLICK TO SHOW">
+        <div  class="box content" id="content">
     <h2>Position Objective: Full-Time Software Engineer/ Full-Stack Developer</h2>
     <h4>Phone: +1 (617) 899-8915   | <a href="mailto:dingqiandd@gmail.com">My Email</a>| <a href="https://www.linkedin.com/in/qian-ding-49804466/">LinkedIn</a>  | <a href="https://github.com/StarQQQ">GitHub</a></h4>
     <hr>
@@ -85,8 +87,19 @@
     </p>
 
         <aside class = "box sidebar "><img src="../StarQQQ.github.io/img/me.JPG" alt="me" width="420" height="500"></aside>
-    </section>
+</div>
+
+
+
+
 </article>
+<!-- jquery -->
+<script>
+    var flip = 0;
+    $( "button" ).click(function() {
+      $( "p" ).toggle( flip++ % 2 === 0 );
+    });
+    </script>
   
     <footer class="box footer">Author: Vera Ding 2020</footer>
     </body>

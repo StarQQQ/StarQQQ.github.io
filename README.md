@@ -40,3 +40,5 @@ DOM
 Vue. JS
 1. be able to show and flip with different pictures
 
+Additionl:
+use bootstrap on Trip webpage to toggle data by clicking the image

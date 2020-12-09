@@ -56,3 +56,16 @@ $(document).ready(function(){
       httpRequest.open('GET', 'myJson.json');
       httpRequest.send();
   }
+
+// vue js
+  console.log("hi");
+let app = new Vue({
+    el: "#app",
+    data: function() {
+      return {
+  
+        homeLink: false,
+      }
+    },
+  
+  })
