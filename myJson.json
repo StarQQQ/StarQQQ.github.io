@@ -1,32 +1,133 @@
 {
 	"VeraEducation": [{
 		"degree": {
-			"courseNum": "CS342",
-            "name": "data struture with Java",
-            "detail": "BS",
+			"number": "1",
+			"coursenum": "CS342",
+            "name": "Data Struture with Java",
+            "detail": "This course covers data structures using the Java Programming Language.",
             "yeartook": "2017 Fall"
 		}
 	},
 		{
 			"degree": {
-				"courseNum": "CS472",
-				"name": "data struture with Java",
-				"detail": "computer architecture",
+				"number": "2",
+				"coursenum": "CS472",
+				"name": "Computer Architecture",
+				"detail": "Computer organization with emphasis on processors, memory, and input/output. Includes pipelining, ALUs, caches, virtual memory, parallelism, measuring performance, and basic operating systems concepts.",
 				"yeartook": "2018 Spring"
 			}
 			
 		},
 		{
 			"degree": {
-				"courseNum": "CS579",
+				"number": "3",
+				"coursenum": "CS579",
 				"name": "Database Management",
-				"detail": "computer architecture",
+				"detail": "This course provides a theoretical yet modern presentation of database topics ranging from Data and Object Modeling, relational algebra and normalization to advanced topics such as how to develop Web-based database applications.",
 				"yeartook": "2018 Spring"
 			}
 			
+		},
+		{
+			"degree": {
+				"number": "4",
+				"coursenum": "CS248",
+				"name": "Discrete Mathematics ",
+				"detail": "the study of mathematical structures that are countable or otherwise distinct and separable. ",
+				"yeartook": "2018 Summer"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "5",
+				"coursenum": "CS566",
+				"name": "Software Engineering",
+				"detail": "Overview of techniques and tools to develop high quality software. ",
+				"yeartook": "2018 Summer"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "6",
+				"coursenum": "CS579",
+				"name": "Analysis of Algorithms",
+				"detail": "Discusses basic methods for designing and analyzing efficient algorithms emphasizing methods used in practice. ",
+				"yeartook": "2018 Full"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "7",
+				"coursenum": "CS579",
+				"name": "Operating System",
+				"detail": "Overview of operating system characteristics, design objectives, and structures. ",
+				"yeartook": "2018 Full"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "8",
+				"coursenum": "CS544",
+				"name": "Foundations of Analytics with R",
+				"detail": "The goal of this course is to provide students with the mathematical and practical background required in the field of data analytics.",
+				"yeartook": "2019 Spring"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "9",
+				"coursenum": "CS699",
+				"name": "Data Mining",
+				"detail": "The goal of this course is to study basic concepts and techniques of data mining. ",
+				"yeartook": "2019 Spring"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "10",
+				"coursenum": "CS688",
+				"name": "Web Analytics and Mining",
+				"detail": "The Web Analytics and Mining course covers the areas of web analytics, text mining, web mining, and practical application domains. ",
+				"yeartook": "2019 Summer"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "11",
+				"coursenum": "CS555",
+				"name": "Data Analysis and Visualization with R",
+				"detail": "This course provides an overview of the statistical tools most commonly used to process, analyze, and visualize data.",
+				"yeartook": "2019 Full"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "12",
+				"coursenum": "CS662",
+				"name": "Computer Language Theory",
+				"detail": "Theory of finite automata and regular expressions and properties of regular sets. ",
+				"yeartook": "2019 Full"
+			}
+			
+		},
+		{
+			"degree": {
+				"number": "13",
+				"coursenum": "CS601",
+				"name": "Web Application Development",
+				"detail": "This course focuses on building core competencies in web design and development.",
+				"yeartook": "2020 Full"
+			}
+			
 		}
-
-
 
 	]
 }

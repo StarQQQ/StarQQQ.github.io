@@ -33,6 +33,7 @@ $(document).ready(function(){
               var tr;
 
       tr = $('<tr/>');
+      tr.append("<td>" + element.degree.number + "</td>");
       tr.append("<td>" + element.degree.coursenum + "</td>");
       tr.append("<td>" + element.degree.name + "</td>");
       tr.append("<td>" + element.degree.detail+ "</td>");
