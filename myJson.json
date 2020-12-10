@@ -54,7 +54,7 @@
 				"coursenum": "CS579",
 				"name": "Analysis of Algorithms",
 				"detail": "Discusses basic methods for designing and analyzing efficient algorithms emphasizing methods used in practice. ",
-				"yeartook": "2018 Full"
+				"yeartook": "2018 Fall"
 			}
 			
 		},
@@ -64,7 +64,7 @@
 				"coursenum": "CS579",
 				"name": "Operating System",
 				"detail": "Overview of operating system characteristics, design objectives, and structures. ",
-				"yeartook": "2018 Full"
+				"yeartook": "2018 Fall"
 			}
 			
 		},
@@ -104,7 +104,7 @@
 				"coursenum": "CS555",
 				"name": "Data Analysis and Visualization with R",
 				"detail": "This course provides an overview of the statistical tools most commonly used to process, analyze, and visualize data.",
-				"yeartook": "2019 Full"
+				"yeartook": "2019 Fall"
 			}
 			
 		},
@@ -114,7 +114,7 @@
 				"coursenum": "CS662",
 				"name": "Computer Language Theory",
 				"detail": "Theory of finite automata and regular expressions and properties of regular sets. ",
-				"yeartook": "2019 Full"
+				"yeartook": "2019 Fall"
 			}
 			
 		},
@@ -124,7 +124,7 @@
 				"coursenum": "CS601",
 				"name": "Web Application Development",
 				"detail": "This course focuses on building core competencies in web design and development.",
-				"yeartook": "2020 Full"
+				"yeartook": "2020 Fall"
 			}
 			
 		}
