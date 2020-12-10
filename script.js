@@ -31,12 +31,12 @@ $(document).ready(function(){
             myArray.forEach((element) => {
               console.log(element);
               var tr;
-  
+
       tr = $('<tr/>');
-      tr.append("<td>" + element.degree.school + "</td>");
-      tr.append("<td>" + element.degree.major + "</td>");
-      tr.append("<td>" + element.degree.type+ "</td>");
-      tr.append("<td>" + element.degree.graduation + "</td>");
+      tr.append("<td>" + element.degree.coursenum + "</td>");
+      tr.append("<td>" + element.degree.name + "</td>");
+      tr.append("<td>" + element.degree.detail+ "</td>");
+      tr.append("<td>" + element.degree.yeartook + "</td>");
       
       $('table').first().append(tr);
     
@@ -57,15 +57,4 @@ $(document).ready(function(){
       httpRequest.send();
   }
 
-// vue js
-  console.log("hi");
-let app = new Vue({
-    el: "#app",
-    data: function() {
-      return {
-  
-        homeLink: false,
-      }
-    },
-  
-  })
+

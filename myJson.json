@@ -1,19 +1,32 @@
 {
 	"VeraEducation": [{
+		"degree": {
+			"courseNum": "CS342",
+            "name": "data struture with Java",
+            "detail": "BS",
+            "yeartook": "2017 Fall"
+		}
+	},
+		{
 			"degree": {
-				"school": "Bentley University",
-        "major": "Accounting",
-        "type": "BS",
-        "graduation": "2014"
+				"courseNum": "CS472",
+				"name": "data struture with Java",
+				"detail": "computer architecture",
+				"yeartook": "2018 Spring"
 			}
+			
 		},
 		{
 			"degree": {
-				"school": "Boston University",
-        "major": "Computer Science",
-        "type": "MS",
-        "graduation": "2020"
+				"courseNum": "CS579",
+				"name": "Database Management",
+				"detail": "computer architecture",
+				"yeartook": "2018 Spring"
 			}
+			
 		}
+
+
+
 	]
 }
