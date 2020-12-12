@@ -12,6 +12,7 @@ affect for About page, professional page etc
     3. text color change
     4. add padding
     5. mouse hover text & background changes 
+II print version CSS
 
 
 Final Demo Features:
