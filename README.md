@@ -11,6 +11,7 @@ CSS
 2. CSS Grild Layout
 3. button anmiation
 4. page or h1,2,3, hover color change
+5. reponsive css
 
 
 HTML
@@ -22,9 +23,11 @@ HTML
 Javascript
 1. validation form to prevent number & letter less than 2 characters input
 
+
 DOM 
 1. get date count down work
 2. DOM get element when click show/hide button
+3. DOM get element ID, content 
 
 
 
@@ -33,12 +36,11 @@ Ajax & Json & JQuery
 1. use Ajax & JQuery return the Json file in table format
 
 
-DOM
+Vue
+1. in bu.html
+2. Conditionals and Loops
+3. Event Handling and Methods
 
-
-
-Vue. JS
-1. be able to show and flip with different pictures
 
 Additionl:
 use bootstrap on Trip webpage to toggle data by clicking the image
