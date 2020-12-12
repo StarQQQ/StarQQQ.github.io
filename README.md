@@ -4,7 +4,7 @@ The final project is Vera's Personal Website
 
 Web server: host on gitpage URL: https://StarQQQ.github.io
 
-Extra Work after Final Demo:
+Update after Final Demo 12/12/2020:
 I add more CSS text feature for paragraph and h2, h3 
 affect for About page, professional page etc
     1. font family as cursive 
@@ -13,7 +13,6 @@ affect for About page, professional page etc
     4. add padding
     5. mouse hover text & background changes 
 
-II add audio (music) in about page
 
 Final Demo Features:
 CSS
@@ -40,8 +39,6 @@ DOM
 3. DOM get element ID, content 
 
 
-
-
 Ajax & Json & JQuery 
 1. use Ajax & JQuery return the Json file in table format
 
@@ -53,4 +50,7 @@ Vue
 
 
 Additionl:
-use bootstrap on Trip webpage to toggle data by clicking the image
+1. use bootstrap on Trip webpage to toggle data by clicking the image
+2. Used CSS Media queries 
+3. Used Grid for the entire website with three box, box header, box content, bot sidebar & box footer
+4. Used Flexbox for display Dog gallery, Travel, About, Countdown webpage
