@@ -4,8 +4,18 @@ The final project is Vera's Personal Website
 
 Web server: host on gitpage URL: https://StarQQQ.github.io
 
+Extra Work after Final Demo:
+I add more CSS text feature for paragraph and h2, h3 
+affect for About page, professional page etc
+    1. font family as cursive 
+    2. background color change
+    3. text color change
+    4. add padding
+    5. mouse hover text & background changes 
 
-Features:
+II add audio (music) in about page
+
+Final Demo Features:
 CSS
 1. Image Transparency
 2. CSS Grild Layout

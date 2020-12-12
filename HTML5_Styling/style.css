@@ -129,7 +129,8 @@ h1 {
     margin:0;
 }
 h2, h3 {
-    font-family: 'Trebuchet MS', sans-serif;
+    /* font-family: 'Trebuchet MS', sans-serif; */
+    font-family: 'Courier New', monospace;
     margin:0;
     padding:5 px;
     border: 1px solid #ddd;
@@ -137,6 +138,9 @@ h2, h3 {
     background: #e5eaf5; 
     font-size: 18px;
 }
+/* h3 {
+  font-family: 'Courier New', monospace;
+} */
 
 h2:hover {
     background: #a0d2eb;
@@ -146,6 +150,7 @@ h2:hover {
 
 h4 {
     /* color: gray; */
+    font-family: 'Courier New', monospace;
     font-weight: bold;
     text-align: left;
     font-size: 16px;
@@ -185,22 +190,18 @@ h1:hover {
     color: white;
 }
 
-/* div {
-    width: 80%;
-     background-color: lightblue; 
-    border: 1px solid black;
-    text-align: left;
-    padding: 10px 50px 75px 100px;
-} 
-*/
-
  p {
-    /* background: #A3BCB6; */
+     background: #A3BCB6; 
     color:#494D5F;
-
-    /* padding: 10px 15px 30px 30px; */
+    font-family: cursive;
+    padding: 10px 15px 10px 10px; 
+    background-color: lightgoldenrodyellow;
     /* text-align: left; */
 } 
+p:hover {
+  background:lightgrey;
+  color:  brown;
+}
 
 ul {
     display: inline-flex;
